@@ -81,6 +81,17 @@ function printNumbers(num) {
     }
 }
 
+//Running Sum
+var runningSum = function(nums) {
+  let result = [];
+  let sum = 0;
+  for(let i = 0; i < nums.length; i++) {
+      sum += nums[i];
+      result.push(sum);
+  }
+    return result;
+};
+
 
 //! Wk05-01 ===== Fizz Buzz ===== 
 // Write code to loop through the array of numbers
