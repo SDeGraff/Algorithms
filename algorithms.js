@@ -455,3 +455,9 @@ console.log(countX(arr1d)); // 3
 // elements of the current array which are equal to 'X', length of that array is added to the accumulator.
 // In short, acc is used as a container to hold the running total and curr is used to refer to the current 
 // element of the array being processed by the reduce() method.
+
+
+// convert boolean to string
+function booleanToString(b){
+return b.toString();
+}
